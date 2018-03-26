@@ -7,21 +7,15 @@ The idea is to create a customer interface, entirely customisable by the profess
 
 ## What are the key features?
 
-The main features to be implemented are the following:
+The main features/modules to be implemented are the following:
 
 * Customer management: personnal profile, informations...
 * Appointments
-* Sales tracking
+* Sales tracking and Billing
 * Stock management
-
-Modules:
-
-* Billing
 * Loyalty program
 * Notifications
-* Stock management
 * Customer Codex
-* Administration
 
 This list is non-exhaustive and is to be improved.
 
