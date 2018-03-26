@@ -14,6 +14,15 @@ The main features to be implemented are the following:
 * Sales tracking
 * Stock management
 
+Modules:
+
+* Billing
+* Loyalty program
+* Notifications
+* Stock management
+* Customer Codex
+* Administration
+
 This list is non-exhaustive and is to be improved.
 
 ## Where does the name Gali come from?
