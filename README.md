@@ -2,7 +2,7 @@
 
 ## What is this project?
 
-Gali is a customer management tool for professionnals. The objective of the project is to create an adaptable plateform for professionnal, easy to use and to embed to any existing website.
+Gali is a customer management tool for professionnals. The objective of the project is to create an adaptable plateform for professionnal, easy to use and to embedded to any existing website.
 The idea is to create a customer interface, entirely customisable by the professionnal.
 
 ## What are the key features?
