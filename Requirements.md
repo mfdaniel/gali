@@ -13,10 +13,16 @@
     * Week
     * Month
     * Agenda
-1. When an appointment is created, updated or deleted; a notification message is sent to concerned users (customer and hairdresser)
+1. When an appointment is created, updated or deleted; a notification message is sent to the concerned users (customer and hairdresser)
 
-1.  A history of appointments is saved.
-1. 
+1. A history of appointments is saved.
+
+#### Notifications:
+
+1. A notification is sent to both the user and the hairdresser when an appointment is created, updated or deleted.
+
+2. The notification includes the details of the appointment and a link that directs to the application.
+ 
 
 
 
