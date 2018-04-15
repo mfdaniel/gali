@@ -1,0 +1,175 @@
+/** Fonts */
+@font-face{
+    
+    font-family: 'Natsuki FREE';
+    src:url('Font/Natsuki FREE.otf') format('truetype');
+    
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+
+    font-family: 'Bison-Bold(PersonalUse)';
+    src:url('Font/Bison-Bold(PersonalUse).ttf') format('truetype');
+    
+    font-weight: bold;
+    font-style: normal;
+}
+
+/** title */
+title{
+
+    font-family: 'Natsuki FREE'; 
+}
+
+/** body */
+body{
+
+    box-sizing: border-box;
+}
+
+
+/** gali logo */
+.logo{
+    float:left;
+    margin:0;
+    font-family: 'Natsuki FREE';
+    text-decoration: none;   
+    font-size: 350%;
+    color:#18bef0;
+    
+}
+
+/** Colors */
+    /** navbar + menu */
+nav ul li a, i{
+    color:#1B88B3; 
+}  
+    /** text in Main */
+p{
+    color:#1B24B3;
+}
+    /** Footer */
+footer ul li a{
+    color:#1B88B3;
+}
+
+
+
+
+
+
+/** navbar + menu */
+nav{
+    padding-top:2%;
+}
+
+nav ul li  {
+
+    list-style: none;   
+}
+
+nav ul li a, i{
+
+    text-decoration: none;
+        
+}
+
+ul{
+    
+    padding-top:0; 
+    display:flex;
+    justify-content:space-around;       
+}
+
+.menu, #Connexion{
+
+    font-family:'Bison-Bold(PersonalUse)'; 
+    
+}
+
+    /** Connection */
+#staticConnect{
+
+    display:flex;
+    flex-direction:column;
+    margin-left:25%;
+    margin-top: 10%;
+    font-family:'Bison-Bold(PersonalUse)';
+    display:none;
+    
+}    
+#Connexion{
+
+    margin-left:10%;
+}
+
+i{
+    padding:5%;
+}
+
+/** main */
+main{
+    padding-bottom: 20px;
+}
+    /** Text Font */
+p{
+    font-family: 'Alegreya', serif;
+    
+}    
+    /** First Picture Container */
+
+#offre img{
+    width:400px;
+    height:400px;
+}
+
+    /** Four little pictures */
+#team img{
+    width:150px;
+    height:150px;
+}  
+
+    /** Team part */
+#team{
+    display:flex;
+    justify-content: center;
+}    
+#AboutUs{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}   
+#photo1, #photo2, #photo3, #photo4{
+    width:150px;
+    height:160px;
+    padding:10px;
+} 
+    
+    
+
+/** footer */
+footer{
+    
+    padding-bottom: 2%;
+    
+}
+#footer{
+    padding-top:5%;
+    margin:0;
+}    
+    /** Logo */
+h3{
+    float:right;
+    font-size: 50%;
+}
+
+    /** Footer list */
+#footer li{
+    list-style:none;
+}
+
+#footer li a{
+    text-decoration:none;
+}    
+
