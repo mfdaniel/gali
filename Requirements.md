@@ -1,10 +1,10 @@
 # Gali
 
-## What are the requirements ?
+## What are the requirements?
 
-### Based on the different modules, requirements are the following:
+### Based on the different modules, requirements are the following
 
-#### Appointments:
+#### Appointments
 
 1. An interactive calendar should be displayed.
 1. A user is be able to create, update and delete appointments.
@@ -17,12 +17,8 @@
 
 1. A history of appointments is saved.
 
-#### Notifications:
+#### Notifications
 
 1. A notification is sent to both the user and the hairdresser when an appointment is created, updated or deleted.
 
 2. The notification includes the details of the appointment and a link that directs to the application.
- 
-
-
-
