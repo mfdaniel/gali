@@ -1,0 +1,25 @@
+version: '3.6'
+
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    networks: 
+      - gali
+    dns:
+      - 127.0.0.1
+    ports:
+      - 3306:3306
+
+  php:
+    image: php:7.2-apache
+    volumes:
+      - ./apache.conf:/etc/apache2/apache.conf
+    networks: 
+      - gali
+
+networks: 
+  gali:
+    driver: bridge
