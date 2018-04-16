@@ -1,0 +1,93 @@
+/** Body */
+
+* {
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+
+
+/** Navigation bar + Menu */
+
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    padding-bottom: 150px;
+}
+
+
+/** Nav */
+
+.title {
+    background-color: white;
+    border: 1px solid green;
+    text-align: center;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+/** entre nav et photo */
+
+h1 {
+    color: #18bef0;
+    font-size: 60px;
+}
+
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+}
+
+section {
+    border: 1px solid red;
+    display: flex;
+    /*probleme*/
+}
+
+
+/** Form Codepen */
+
+
+/** Middle Section */
+
+.grandP {
+    border: 1px solid blue;
+    width: 75%;
+}
+
+.grandP p {
+    padding: 10%;
+    padding-top: 35px;
+    ;
+}
+
+.grandP h3 {
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.petitCarreePhoto {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    border: 1px solid pink;
+    width: 325px;
+    height: 325px;
+}
+
+.sectionMilieu div h3 {
+    margin: 100px;
+    text-align: center;
+    padding: 150px;
+}
+
+footer {
+    margin: 50px 0 50px 20px;
+}
